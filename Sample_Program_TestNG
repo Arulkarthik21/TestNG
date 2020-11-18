@@ -1,0 +1,28 @@
+package part_1_Sample_Program;
+
+import org.testng.annotations.Test;
+
+public class Sample_Program_Part_1 {
+	
+	@Test
+	public void firstcase() {
+		System.out.println("This is first test case");
+
+	}
+
+	@Test
+	public void secondcase() {
+		System.out.println("This is second test case");
+	}
+
+	@Test
+	public void thirdcase() {
+		System.out.println("This is Third test case");
+	}
+
+	@Test
+	public void fourthcase() {
+		System.out.println("This is fourth test case");
+	}
+
+}
